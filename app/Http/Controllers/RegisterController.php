@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class RegisterController extends Controller
 {
     public function index() {
-        return 'ini adalah bagian index';
+        return view ('registar');
     }
 }

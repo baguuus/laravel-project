@@ -23,7 +23,7 @@ Route:: get('info', function() {
 });
 
 Route:: get('register', function() {
-    echo 'register';
+    return view('register');
 });
 
 Route::get('/show', [NewsController::class,'show']);
